@@ -67,6 +67,7 @@ class Hand {
 
    private:
       // You decide what fields you'll need...
+	   
 };
 
 
@@ -77,7 +78,9 @@ class Player {
       Player(int m);
 
       // You decide what functions you'll need...
-
+	  //Added in some decisions that the player can make
+	  void ask_more();
+	  void stop();
    private:
       int money;
       // You decide what extra fields (if any) you'll need...
